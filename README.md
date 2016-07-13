@@ -1,2 +1,2 @@
-# portfolio
-My personal website and blog 
+# Portfolio
+My personal website and blog
