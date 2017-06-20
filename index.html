@@ -20,7 +20,8 @@
 				controlArrows: false,
 				slidesNavigation: true,
 				menu: '#myMenu',
-				loopBottom: true
+				loopBottom: true,
+				recordHistory: false
 			});
 		});
 	</script>
@@ -30,12 +31,36 @@
 			font-size: 6em;
 			text-align: center;
 		}
+
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+		    background-color: #111;
+		}
 	</style>
 <title>Adithya's Website</title>
 </head>
 
 <body>
-	
+
 	<ul id="myMenu">
 		<li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
 		<li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
