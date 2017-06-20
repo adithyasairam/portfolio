@@ -10,11 +10,13 @@
 
 	<script type="text/javascript">
 	$(document).ready(function() {
-    	$('#fullpage').fullpage({
+			$('#fullpage').fullpage({
 				sectionsColor: ['#0f94ad', '#60bcbf', '#7BAABE', 'whitesmoke', '#000'],
 				css3: true,
 				anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
-				navigation: true
+				navigation: true,
+				slidesNavigation: true,
+				menu: '#myMenu'
 			});
 		});
 	</script>
@@ -25,14 +27,21 @@
 			text-align: center;
 		}
 	</style>
-<title>Adithya Sairam</title>
+<title>Adithya's Website</title>
 </head>
 
 <body>
 	<div id="navbar">
 		<div class>
-
 	</div>
+
+<ul id="myMenu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+	<li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
+	<li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+</ul>
+
 	<div id="fullpage">
 		<div class="section">Adithya</div>
 		<div class="section">
