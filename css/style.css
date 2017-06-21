@@ -12,8 +12,8 @@ body{
 }
 
 img {
-    max-width: 10%;
-    max-height: 10%;
+    width: 20px 80px;
+    height: 20px 60px;
 }
 
 .section{
