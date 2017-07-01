@@ -25,8 +25,6 @@ img {
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px;
-            border-radius: 10px;
 }
 #myMenu li.active{
 	background:#666;
@@ -43,14 +41,14 @@ img {
 #myMenu li:hover{
 	background: rgba(255,255,255, 0.8);
 }
+
 #myMenu li a,
 #myMenu li.active a{
 	padding: 9px 18px;
 	display:block;
-}
-#myMenu li.active a{
 	color: #fff;
 }
+
 #myMenu{
 	position:fixed;
 	top:0;
