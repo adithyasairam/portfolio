@@ -25,6 +25,8 @@ img {
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
 }
 #myMenu li.active{
 	background:#666;
