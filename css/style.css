@@ -43,14 +43,15 @@ img {
 #myMenu li:hover{
 	background: rgba(255,255,255, 0.8);
 }
-
 #myMenu li a,
 #myMenu li.active a{
 	padding: 9px 18px;
 	display:block;
 	color: #fff;
 }
-
+#myMenu li.active a{
+	color: #fff;
+}
 #myMenu{
 	position:fixed;
 	top:0;
